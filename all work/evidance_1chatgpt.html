@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table Example</title>
+</head>
+<body>
+
+    <table border="1" cellspacing="0" cellpadding="8">
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th rowspan="3">Result</th>
+                <th rowspan="2">Round</th>
+                <th colspan="2">Marks</th>
+            </tr>
+            <tr>
+                <th>MCQ</th>
+                <th>Descriptive</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Masud Sardar</td>
+                <td>WDPF-60</td>
+                <td>45</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Saif Jahan</td>
+                <td>WDPF-60</td>
+                <td>49</td>
+                <td>45</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        
+        <!-- a. ID (Text Box) -->
+        <label for="student_id">ID:</label><br>
+        <input type="text" id="student_id" name="student_id"><br><br>
+
+        <!-- b. Name (Textarea) -->
+        <label for="student_name">Name:</label><br>
+        <textarea id="student_name" name="student_name" rows="3" cols="30"></textarea><br><br>
+
+        <!-- c. Round (Dropdown List) -->
+        <label for="round">Round:</label><br>
+        <select id="round" name="round">
+            <option value="">-- Select Round --</option>
+            <option value="Round 58">Round 58</option>
+            <option value="Round 59">Round 59</option>
+            <option value="Round 60">Round 60</option>
+        </select><br><br>
+
+        <!-- d. Gender (Radio Button) -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <!-- e. Education: SSC, HSC (Checkbox) -->
+        <label>Education:</label><br>
+        <input type="checkbox" id="ssc" name="education" value="SSC">
+        <label for="ssc">SSC</label>
+        <input type="checkbox" id="hsc" name="education" value="HSC">
+        <label for="hsc">HSC</label><br><br>
+
+        <!-- f. CV File Upload -->
+        <label for="cv">CV File Upload:</label><br>
+        <input type="file" id="cv" name="cv_file"><br><br>
+
+        <!-- g. Submit and Reset Button -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
