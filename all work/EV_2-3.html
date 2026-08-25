@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Product List</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 500px;
+    }
+    caption {
+        text-align: left;
+        font-weight: bold;
+        color: blue;
+        margin-bottom: 5px;
+    }
+    th, td {
+        
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #1a73e8;
+        color: white;
+    }
+    .type-cell {
+        background-color: yellow;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle;
+    }
+    tbody tr {
+        background-color: #cfe2f3;
+    }
+</style>
+</head>
+<body>
+
+<table>
+    <caption>Product List:</caption>
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Imported</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="type-cell" rowspan="3">Food</td>
+            <td>Pringles chip</td>
+            <td>125</td>
+            <td>Y</td>
+        </tr>
+        <tr>
+            <td>Dry Cake</td>
+            <td>150</td>
+            <td>N</td>
+        </tr>
+        <tr>
+            <td>Mr. Cookie</td>
+            <td>12</td>
+            <td>N</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
